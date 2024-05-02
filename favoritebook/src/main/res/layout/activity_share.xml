@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShareActivity">
+
+    <TextView
+        android:id="@+id/developerBookTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Любимая книга разработчика - НАЗВАНИЕ КНИГИ"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/bookEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/developerBookTextView"
+        android:hint="Введите название Вашей любимой книги"/>
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отправить на первый экран"
+        android:layout_below="@id/bookEditText"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
