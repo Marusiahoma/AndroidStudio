@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/dataFragment"
+            android:title="Котики" />
+        <item
+            android:id="@+id/webView"
+            android:icon="@android:drawable/ic_search_category_default"
+            android:title="@string/menu_webview" />
+        <item
+            android:id="@+id/BMIFragment"
+            android:icon="?android:attr/alertDialogIcon"
+            android:title="@string/menu_service" />
+        <item
+            android:id="@+id/accelerometerFragment"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="@string/menu_accelerometer" />
+        <item
+            android:id="@+id/cameraFragment"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Размер" />
+        <item
+            android:id="@+id/audioRecordFragment"
+            android:icon="@android:drawable/presence_audio_online"
+            android:title="Микрофон" />
+        <item
+            android:id="@+id/profileFragment"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/fileHandlingFragment"
+            android:icon="@android:drawable/ic_popup_sync"
+            android:title="@string/menu_file" />]
+        <item
+            android:id="@+id/authorization"
+            android:icon="@android:drawable/presence_offline"
+            android:title="Exit" />
+
+        <item
+            android:id="@+id/placesFragment"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/menu_map" />
+    </group>
+</menu>
