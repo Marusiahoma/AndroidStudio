@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "376085844793",
+    "project_id": "rumireapinashina",
+    "storage_bucket": "rumireapinashina.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376085844793:android:e7dd9283aec469a2ab0ee8",
+        "android_client_info": {
+          "package_name": "com.example.rumireapinashina"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVF22E_hAL4Zqbfn6Dj6w1boAL8bpHssc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Travel Compain</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="clear_sky">Ясное небо</string>
+    <string name="few_clouds">Малооблачно</string>
+    <string name="scattered_clouds">Разбросанные облака</string>
+    <string name="broken_clouds">Рваные облака</string>
+    <string name="overcast_clouds">Сплошная облачность</string>
+    <string name="light_rain">Лёгкий дождь</string>
+    <string name="moderate_rain">Умеренный дождь</string>
+    <string name="heavy_rain">Сильный дождь</string>
+    <string name="thunderstorm">Гроза</string>
+    <string name="snow">Снег</string>
+    <string name="mist">Туман</string>
+    <string name="unknown_weather">Неизвестная погода</string>
+    <string name="weather_image">изображение</string>
+</resources>
