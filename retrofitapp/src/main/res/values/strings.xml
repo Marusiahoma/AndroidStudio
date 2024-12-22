@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RetrofitApp</string>
+    <string name="image_desc">Описание изображения</string>
+    <string name="completed">Выполнено</string>
+</resources>
